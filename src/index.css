@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background:url(/public/Images/123.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.blog-search .form-control,
+.blog-subscribe .form-control {
+    background: rgba(255,255,255,0.95);
+}
+
+.blog-chip {
+    border-color: rgba(255,255,255,0.18);
+    color: #f8f9fa;
+}
+
+.blog-chip:hover {
+    background: rgba(255,255,255,0.12);
+}
+
+.blog-card {
+    background: rgba(255,255,255,0.04);
+}
+
+.blog-card-image {
+    min-height: 220px;
+    background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02)),
+        url('/public/Images/room.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-newsletter {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.12);
+}
+
+.contact-input {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.12);
+    color: #f8f9fa;
+}
+
+.contact-input:focus {
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.28);
+    color: #f8f9fa;
+    box-shadow: none;
+}
+
+.contact-icon {
+    width: 42px;
+    height: 42px;
+    display: grid;
+    place-items: center;
+    background: rgba(255, 193, 7, 0.15);
+    border-radius: 12px;
+    font-size: 1.1rem;
+}
+
+.contact-hours {
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.studio-image {
+    min-height: 320px;
+    background: url('/public/Images/villa.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid rgba(255,255,255,0.1);
+}
