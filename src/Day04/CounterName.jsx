@@ -28,6 +28,7 @@ const CounterName = () => {
       <button onClick={changeName}>
         Change the Cricketer Name
       </button>
+      <h1>----------------------------------------------------------------------------------------------------------</h1>
     </div>
   );
 };

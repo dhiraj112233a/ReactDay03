@@ -13,6 +13,7 @@ const Counter = () => {
         <button onClick={()=> setCount(count+10) } > ➕ </button> <br/>
         <button onClick={()=> setCount(0)} > Reset </button> <br/>
         <button onClick={()=> setCount(count-10)} > ➖ </button>
+        <h1>----------------------------------------------------------------------------------------------------------</h1>
     </div>
   )
 }
