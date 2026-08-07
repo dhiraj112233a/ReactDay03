@@ -23,7 +23,7 @@ const CounterName = () => {
 
   return (
     <div>
-      <h2>Name: {names[index]}</h2>
+      <h2>Your Fav Cricketer: {names[index]}</h2>
 
       <button onClick={changeName}>
         Change the Cricketer Name
