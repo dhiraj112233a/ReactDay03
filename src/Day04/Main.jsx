@@ -1,6 +1,7 @@
 import React from 'react'
 import Counter from './Counter'
 import CounterName from './CounterName'
+import Toggle from './Toggle'
 
 
 export const Main = () => {
@@ -8,6 +9,7 @@ export const Main = () => {
     <div>
         <Counter/>
         <CounterName/> 
+        <Toggle/>
     </div>
   )
 }
