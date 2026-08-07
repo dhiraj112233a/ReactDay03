@@ -28,3 +28,5 @@
 ⭐ What is a Real DOM In React :
 - The Real DOM is the actual DOM created by the browser. Updating it frequently can be slower because the browser has to process those changes.
 
+⭐ Does React use OOPS?
+- React is not an OOP framework. It is a component-based JavaScript library. Although JavaScript supports OOP concepts like encapsulation, inheritance, polymorphism, and abstraction, modern React mainly uses components, props, state, and composition rather than inheritance.
