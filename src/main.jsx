@@ -5,7 +5,8 @@ import { createRoot } from 'react-dom/client'
 // import DemoOne from './day01';
 //import Day03 from './Day03/MainDay03'
 //import Day04 from './Day04/Main';
-import Day05 from './Day05/day05main';
+//import Day05 from './Day05/day05main';
+import Day06 from './Day06/Api';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,8 @@ createRoot(document.getElementById('root')).render(
     {/* <DemoOne/> */}
     {/* <Day03/> */}
     {/* <Day04/> */}
-    <Day05/>
+    {/*<Day05/>*/}
+    <Day06/>
   </StrictMode>,
 )
+ 
